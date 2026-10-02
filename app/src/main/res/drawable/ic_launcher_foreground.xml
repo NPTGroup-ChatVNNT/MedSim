@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="13.5"
+        android:translateY="13.5">
+        <!-- Medical shield / cross glow backdrop -->
+        <path
+            android:fillColor="#152C48"
+            android:pathData="M54,14 C36,14 26,22 26,36 C26,62 54,92 54,92 C54,92 82,62 82,36 C82,22 72,14 54,14 Z" />
+
+        <!-- Medical Cross -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M50,26 L58,26 L58,36 L68,36 L68,44 L58,44 L58,54 L50,54 L50,44 L40,44 L40,36 L50,36 Z" />
+
+        <!-- ECG Heartbeat Pulse Line -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M24,62 L38,62 L43,53 L48,72 L53,46 L58,66 L62,59 L66,62 L84,62" />
+
+        <!-- Pulse Dot -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M84,62m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    </group>
+</vector>

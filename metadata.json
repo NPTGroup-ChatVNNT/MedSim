@@ -1,0 +1,6 @@
+{
+  "name": "MedSim",
+  "description": "Mô phỏng tư duy lâm sàng y khoa tương tác với AI Patient, thăm khám, cận lâm sàng, xử trí và debrief",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
